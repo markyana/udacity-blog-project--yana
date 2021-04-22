@@ -274,6 +274,7 @@ body {
 #footer {
     border-top: black 1px solid;
     display: grid;
+    background-color: #f8f8f8;
 }
 .footer-logo {
     align-self: center;
@@ -281,8 +282,8 @@ body {
     text-align: center;
 }
 .footer-logo-img {
-    width: 25%;
-    height: 25%;
+    width: 18%;
+    height: 18%;
     padding: 1em;
 }
 .footer-menu {
