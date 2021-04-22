@@ -89,8 +89,9 @@ body {
     .main-text {
         font-size: 1.5em;
     }
-    .main-more {
-        font-size: 1em;
+    .three-dots-main {
+        width: 55px;
+        height: 55px;
     }
     .card-title {
         font-size: 2em;
@@ -98,8 +99,9 @@ body {
     .card-text {
         font-size: 1em;
     }
-    .card-more {
-        font-size: 1em;
+    .three-dots {
+        width: 40px;
+        height: 40px;
     }
     #footer {
         grid-template-columns: repeat(2, 1fr);
@@ -127,8 +129,10 @@ body {
     .main-text {
         font-size: 2em;
     }
-    .main-more {
-        font-size: 1.5em;
+    .three-dots-main {
+        width: 3em;
+        height: 3em;
+        margin-top: -6em;
     }
     .card-title {
         font-size: 2em;
@@ -136,8 +140,9 @@ body {
     .card-text {
         font-size: 1em;
     }
-    .card-more {
-        font-size: 1em;
+    .three-dots {
+        width: 2.5em;
+        height: 2.5em;
     }
     #footer{
         grid-template-columns: repeat(3, 1fr);
@@ -160,8 +165,9 @@ body {
     .main-text {
         font-size: 2.5em;
     }
-    .main-more {
-        font-size: 2em;
+    .three-dots-main {
+        width: 4em;
+        height: 4em;
     }
     .card-title {
         font-size: 2em;
@@ -169,8 +175,9 @@ body {
     .card-text {
         font-size: 1em;
     }
-    .card-more {
-        font-size: 1em;
+    .three-dots {
+        width: 3em;
+        height: 3em;
     }
 }
 .main-title {
@@ -200,7 +207,7 @@ body {
     justify-self: center;
     align-self: center;
     text-align: center;
-    padding: 0.1em;
+    padding: 0em;
     margin: 0;
 }
 .blog-card {
@@ -233,9 +240,6 @@ body {
     justify-self: center;
     align-self: center;
     text-align: center;
-    margin-bottom: 0.5em;
-    padding: 0.1em;
-    background-color: white;
 }
 .card-1 {
     background-image: url(../images/image1.jpeg);
