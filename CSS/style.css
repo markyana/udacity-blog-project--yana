@@ -24,13 +24,24 @@ body {
     margin-left: 1%;
     margin-right: 1%;
     text-transform: uppercase;
+}
+.menu-item:hover{
     cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.25em;
 }
 .header-logo {
     padding: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header-logo-img {
+    width: 40px;
+    height: 40px;
+}
+.header-logo-img:hover {
+    cursor: pointer;
 }
 #header-social-menu {
     display: flex;
@@ -42,7 +53,10 @@ body {
 .social-menu-item {
     margin-left: 2%;
     margin-right: 2%;
+}
+.social-menu-item:hover{
     cursor: pointer;
+    border: black 1px solid;
 }
 #banner {
     display: flex;
@@ -211,6 +225,13 @@ body {
     text-align: center;
     padding: 0em;
     margin: 0;
+}
+.three-dots-main {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.three-dots-main:hover{
+    background-color: rgba(248, 253, 253, 0.4);
     cursor: pointer;
 }
 .blog-card {
@@ -243,6 +264,11 @@ body {
     justify-self: center;
     align-self: center;
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.card-more:hover {
+    background-color: rgba(248, 253, 253, 0.4);
     cursor: pointer;
 }
 .card-1 {
@@ -290,6 +316,9 @@ body {
     height: 18%;
     padding: 1em;
 }
+.footer-logo-img:hover {
+    cursor: pointer;
+}
 .footer-menu {
     align-self: center;
     justify-self: center;
@@ -300,7 +329,12 @@ body {
 .footer-menu-item {
     margin: 0.5em;
     font-size: 1.5em;
+    text-align: center;
+}
+.footer-menu-item:hover {
     cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.75em;
 }
 .footer-social-menu {
     padding: 1em;
