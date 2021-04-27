@@ -51,22 +51,12 @@
     background-color: rgba(53, 56, 57, 0.6);
 }
 .about-title-top {
-    font-size: 3em;
     color: white;
 }
 .about-text-top {
     margin-top: 1em;
     font-size: 1.75em;
     color: white;
-}
-.text {
-    text-align: center;
-    font-size: 1.5em;
-    margin: 1em;
-    line-height: 200%;
-    padding: 1em;
-    justify-self: center;
-    align-self: center;
 }
 .image {
     width: 95%;
