@@ -5,11 +5,15 @@ body {
 h1 {
     font-size: 45px;
 }
+h2 {
+    font-size: 30px;
+    margin: 2em;
+}
 .text {
     text-align: center;
     font-size: 1.5em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
     line-height: 200%;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -71,30 +75,13 @@ h1 {
     cursor: pointer;
     border: black 1px solid;
 }
-#banner {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(180, 253, 248, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
-    text-transform: uppercase;
-}
 .blog-cards {
     display:grid;
 }
-/*
-.blog-cards > div {
-    background-color: #eee;
-}
-.blog-cards > div:nth-child(odd) {
-    background-color: #ddd;
-}
-*/
 .card-main {
     grid-row: 1/3;
     padding: 0;
-    background-image: url(../images/image.png);
+    background-image: url(../images/focus-post-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -231,8 +218,9 @@ h1 {
     text-align: center;
     padding: 0.1em;
     margin-top: 0.5em;
-    background-color: rgba(248, 253, 253, 0.4)
-    
+    /*background-color: rgba(248, 253, 253, 0.4);*/
+    color: white;
+    font-weight: bold;
 }
 .main-text {
     grid-column: 2/6;
@@ -242,7 +230,7 @@ h1 {
     text-align: center;
     padding: 0.4em;
     color: white;
-    background-color: rgba(90, 90, 90, 0.7);
+    /*background-color: rgba(90, 90, 90, 0.7);*/
 }
 .main-more {
     grid-column: 2/6;
@@ -256,6 +244,7 @@ h1 {
 .three-dots-main {
     padding-left: 1em;
     padding-right: 1em;
+    background-color: rgba(248, 253, 253, 0.1);
 }
 .three-dots-main:hover{
     background-color: rgba(248, 253, 253, 0.4);
@@ -273,7 +262,8 @@ h1 {
     align-self: center;
     text-align: center;
     margin-top: 0.5em;
-    background-color: rgba(248, 253, 253, 0.4)
+    background-color: rgba(248, 253, 253, 0.4);
+    font-weight: bold;
 }
 .card-text {
     grid-column: 2/6;
@@ -293,6 +283,7 @@ h1 {
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: rgba(248, 253, 253, 0.2);
 }
 .card-more:hover {
     background-color: rgba(248, 253, 253, 0.4);
