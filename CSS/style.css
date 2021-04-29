@@ -292,12 +292,12 @@ h2 {
     cursor: pointer;
 }
 .card-1 {
-    background-image: url(../images/image1.jpeg);
+    background-image: url(../images/travel-post-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card-2 {
-    background-image: url(../images/image2.jpeg);
+    background-image: url(../images/budget-travel-post-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
