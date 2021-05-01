@@ -74,4 +74,12 @@
 }
 .image-stretch {
     text-align: center;
+    align-self: center;
+}
+#related {
+    margin-bottom: 1em;
+}
+.related-title {
+    text-align: center;
+    border-top: black 1px solid;
 }
