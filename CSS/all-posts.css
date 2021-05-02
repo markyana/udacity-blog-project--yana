@@ -1,3 +1,23 @@
+.all-posts-title {
+    text-align: center;
+    margin-bottom: 4em;
+}
+@media (min-width:0px) {
+    .summary-description {
+        width: 75%;
+    }
+    .summary-img {
+        width: 75%;
+    }
+}
+@media (min-width:900px){
+    .summary-description {
+        width: 50%;
+    }
+    .summary-img {
+        width: 50%;
+    }
+}
 .post-summary {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -9,11 +29,7 @@
     margin-right: 3em;
 }
 .summary-description {
-    width: 50%;
     align-self: center;
-}
-.summary-img {
-    width: 50%;
 }
 .summary-title {
     font-size: 1.75em;
