@@ -83,3 +83,31 @@
     text-align: center;
     border-top: black 1px solid;
 }
+.books-post-head {
+    background-image: url(../images/books-post-header.jpg);
+    color: black;
+}
+.budget-travel-post-head {
+    background-image: url(../images/budget-travel-post-header.jpg);
+    color: black;
+}
+.focus-post-head {
+    background-image: url(../images/focus-post-header.jpg);
+    color: white;
+}
+.photo-post-head {
+    background-image: url(../images/photo-post-header.jpg);
+    color: white;
+}
+.relationships-post-head {
+    background-image: url(../images/relationships-post-header.jpg);
+    color: white;
+}
+.russian-food-post-head {
+    background-image: url(../images/russian-food-post-header.jpg);
+    color: black;
+}
+.travel-post-head {
+    background-image: url(../images/travel-post-header.jpg);
+    color: white;
+}
