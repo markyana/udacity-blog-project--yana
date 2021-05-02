@@ -12,10 +12,10 @@
 }
 @media (min-width:900px){
     .summary-description {
-        width: 50%;
+        width: 60%;
     }
     .summary-img {
-        width: 50%;
+        width: 60%;
     }
 }
 .post-summary {
@@ -33,6 +33,9 @@
 }
 .summary-title {
     font-size: 1.75em;
+}
+.summary-title:hover {
+    font-size: 1.8em;
 }
 .summary-author {
     font-size: 1.25em;
