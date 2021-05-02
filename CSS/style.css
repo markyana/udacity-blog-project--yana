@@ -181,7 +181,7 @@ a:hover {
         width: 2.5em;
         height: 2.5em;
     }
-    #footer{
+    footer{
         grid-template-columns: repeat(3, 1fr);
     }
     .footer-logo-img {
@@ -332,7 +332,7 @@ a:hover {
     background-size: cover;
     background-position: center;
 }
-#footer {
+footer {
     border-top: black 1px solid;
     display: grid;
     background-color: #f8f8f8;
