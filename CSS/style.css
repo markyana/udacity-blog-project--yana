@@ -1,3 +1,7 @@
+@import "post.css";
+@import "all-posts.css";
+@import "about.css";
+
 body {
     margin: 0;
     padding: 0;
