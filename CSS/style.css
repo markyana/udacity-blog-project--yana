@@ -10,6 +10,9 @@ h2 {
     font-size: 30px;
     margin: 2em;
 }
+a:hover {
+    cursor: pointer;
+}
 .text {
     text-align: center;
     font-size: 1.3em;
@@ -44,7 +47,6 @@ h2 {
     text-transform: uppercase;
 }
 .menu-item:hover{
-    cursor: pointer;
     text-decoration: underline;
     font-size: 1.25em;
 }
@@ -57,9 +59,6 @@ h2 {
 .header-logo-img {
     width: 40px;
     height: 40px;
-}
-.header-logo-img:hover {
-    cursor: pointer;
 }
 #header-social-menu {
     display: flex;
@@ -75,7 +74,6 @@ h2 {
     height: 30px;
 }
 .social-menu-item:hover{
-    cursor: pointer;
     border: black 1px solid;
 }
 .blog-cards {
@@ -251,7 +249,6 @@ h2 {
 }
 .three-dots-main:hover {
     background-color: rgba(248, 253, 253, 0.4);
-    cursor: pointer;
 }
 .blog-card {
     display: grid;
@@ -290,7 +287,6 @@ h2 {
 }
 .card-more:hover {
     background-color: rgba(248, 253, 253, 0.4);
-    cursor: pointer;
 }
 .card-1 {
     background-image: url(../images/travel-post-header.jpg);
@@ -340,9 +336,6 @@ h2 {
 }
 .footer-logo-img {
     padding: 1em;
-}
-.footer-logo-img:hover {
-    cursor: pointer;
 }
 .footer-menu {
     align-self: center;
