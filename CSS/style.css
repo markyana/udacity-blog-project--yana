@@ -67,6 +67,10 @@ a:hover {
     justify-content: flex-end;
     margin-right: 1em;
 }
+.social-item {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
 .social-menu-item {
     margin-left: 2%;
     margin-right: 2%;
