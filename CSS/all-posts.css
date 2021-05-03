@@ -1,3 +1,5 @@
+/* CSS for the All Posts page */
+
 .all-posts-title {
     text-align: center;
     margin-bottom: 4em;
@@ -23,20 +25,9 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     margin: 1em;
+    align-items: center;
 }
 .summary-image {
     text-align: end;
     margin-right: 3em;
-}
-.summary-description {
-    align-self: center;
-}
-.summary-title {
-    font-size: 1.75em;
-}
-.summary-title:hover {
-    font-size: 1.8em;
-}
-.summary-author {
-    font-size: 1.25em;
 }
