@@ -10,6 +10,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgba(237, 219, 217, 0.4);
 }
 h1 {
     font-size: 45px;
@@ -41,6 +42,9 @@ a {
 }
 a:hover {
     cursor: pointer;
+}
+q {
+    quotes: """ """;
 }
 button {
     background-color: rgba(253, 253, 253, 0.4);

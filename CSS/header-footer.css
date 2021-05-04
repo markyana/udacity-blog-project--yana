@@ -95,7 +95,7 @@
 footer {
     border-top: black 1px solid;
     display: grid;
-    background-color: #f8f8f8;
+    background-color: rgba(176, 224, 230, 0.2)
 }
 .footer-logo {
     align-self: center;

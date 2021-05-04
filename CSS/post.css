@@ -47,6 +47,21 @@
     text-align: center;
     padding: 2em;
 }
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: black 2px solid;
+}
+.author-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.25em;
+}
+.author-bio {
+    font-size: 17px;
+    padding: 0.25em;
+}
 .section {
     text-align: center;
     align-items: center;
@@ -86,4 +101,20 @@
 .travel-post-head {
     background-image: url(../images/travel-post-header.jpg);
     color: white;
+}
+#social-share {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+.share-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1em;
+}
+.share-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0.1em;
 }
