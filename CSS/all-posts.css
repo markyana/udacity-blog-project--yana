@@ -4,22 +4,31 @@
     text-align: center;
     margin-bottom: 4em;
 }
-@media (min-width:0px) {
+
+@media (min-width: 0px) {
+
     .summary-description {
         width: 80%;
     }
+
     .summary-img {
         width: 80%;
     }
+
 }
-@media (min-width:900px){
+
+@media (min-width: 900px) {
+
     .summary-description {
         width: 60%;
     }
+
     .summary-img {
         width: 60%;
     }
+
 }
+
 .post-summary {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -27,6 +36,7 @@
     margin: 1em;
     align-items: center;
 }
+
 .summary-image {
     text-align: end;
     margin-right: 3em;

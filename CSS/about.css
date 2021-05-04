@@ -6,40 +6,54 @@
     margin-bottom: 1em;
     justify-items: center;
 }
-@media (min-width:0px){
+
+@media (min-width: 0px) {
+
     #about {
         grid-template-columns: 1fr;
     }
+
     .top-text-title {
         grid-column: 1/3;
     }
+
     .about-top {
         height: 500px;
     }
+
 }
+
 @media (min-width: 1200px) {
+
     #about {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .about-top {
         grid-column: 1/3;
     }
+
     .top-text-title {
         grid-column: 1/2;
     }
+
     .text-1 {
         grid-column: 1/3;
     }
+
 }
+
 .img {
     width: 50%;
 }
+
 .about-top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-image: url(../images/about-head.jpg);
     background-size: cover;
 }
+
 .top-text-title {
     text-align: center;
     width: 75%;
@@ -50,6 +64,7 @@
     background-color: rgba(53, 56, 57, 0.6);
     color: white;
 }
+
 .about-text-top {
     margin-top: 1em;
     font-size: 1.75em;
