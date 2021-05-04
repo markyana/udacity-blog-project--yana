@@ -50,50 +50,32 @@
 }
 
 .card-1 {
-    background-image: url(../images/travel-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/travel-post-header.jpg) center / cover no-repeat;
     color: white;
 }
 
 .card-2 {
-    background-image: url(../images/budget-travel-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/budget-travel-post-header.jpg) center / cover no-repeat;
     color: black;
 }
 
 .card-3 {
-    background-image: url(../images/books-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/books-post-header.jpg) center / cover no-repeat;
     color: black;
 }
 
 .card-4 {
-    background-image: url(../images/relationships-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/relationships-post-header.jpg) center / cover no-repeat;
     color: white;
 }
 
 .card-5 {
-    background-image: url(../images/photo-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/photo-post-header.jpg) center / cover no-repeat;
     color: white;
 }
 
 .card-6 {
-    background-image: url(../images/russian-food-post-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../images/russian-food-post-header.jpg) center / cover no-repeat;
     color: black;
 }
 
@@ -103,7 +85,6 @@
 
 .related-title {
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1.5em;
+    padding: 2em 0 1.5em 0;
     border-top: black 1px solid;
 }

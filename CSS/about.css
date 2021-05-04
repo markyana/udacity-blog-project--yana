@@ -50,8 +50,7 @@
 .about-top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(../images/about-head.jpg);
-    background-size: cover;
+    background: url(../images/about-head.jpg) center / cover no-repeat;
 }
 
 .top-text-title {
