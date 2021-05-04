@@ -5,7 +5,7 @@ article {
     grid-gap: 0.5em;
 }
 
-@media (min-width: 0px) and (max-width: 1350px) {
+@media (min-width: 0) and (max-width: 1350px) {
 
     article {
         grid-template-columns: 1fr;
