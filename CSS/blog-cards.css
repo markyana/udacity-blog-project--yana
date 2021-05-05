@@ -1,9 +1,10 @@
 /* CSS for blog cards used on the Homepage and as related posts on post pages */
 
+/* Making the blog card descriptions more readable in different screen sizes */
 @media (min-width: 0) {
 
     .card-text {
-        font-size: 1em;
+        font-size: 2em;
     }
 
 }
@@ -11,7 +12,7 @@
 @media (min-width: 700px) {
 
     .card-text {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
 }
@@ -24,6 +25,7 @@
 
 }
 
+/* Setting the style for the blog cards */
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -33,6 +35,7 @@
     padding: 2em;
 }
 
+/* Making the title and text of the blog cards aligned and straight */
 .card-title {
     justify-self: stretch;
     align-self: center;
@@ -45,10 +48,12 @@
     text-align: center;
 }
 
+/* The text for this card needed a background color in order to make it more readable on the background image or the card */
 .russian-text {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* The following rules set background images for each of the smaller blog cards */
 .card-1 {
     background: url(../images/travel-post-header.jpg) center / cover no-repeat;
     color: white;
@@ -79,10 +84,12 @@
     color: black;
 }
 
+/* Setting a margin at the botton of the 'Related posts' sections on every page in order to make it look more appealing */
 #related {
     margin-bottom: 1em;
 }
 
+/* Setting the style for the title of the 'Related posts' section of all the blog pages */
 .related-title {
     text-align: center;
     padding: 2em 0 1.5em 0;

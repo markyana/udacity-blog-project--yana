@@ -1,5 +1,7 @@
 /* CSS for header and footer of every page */
 
+/* HEADER */
+/*Setting the layout and style of the header of each page of the website */
 #header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,6 +10,7 @@
     border-bottom: black 1px solid;
 }
 
+/* Setting the layout and style of the navigation menu of the header and its menu items, including the animation for when someone is hovering over a menu item with the cursor */
 #header-menu {
     display: flex;
     flex-direction: row;
@@ -15,6 +18,103 @@
     justify-content: left;
 }
 
+.menu-item {
+    text-align: center;
+    font-size: 1em;
+    padding: 0 1% 0 1%;
+    margin: 0 1% 0 1%;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    font-size: 1.25em;
+}
+
+/* Setting the layout at styling for the logo of the header */
+.header-logo {
+    padding: 1%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.header-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Setting the layout and styling of the social media menu of the header, including the animation for when th euser hovers over the items with the cursor (in footer also) */
+#header-social-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.social-item {
+    margin: 0 0.25em 0 0.25em;
+}
+
+.social-menu-item {
+    margin: 0 2% 0 2%;
+    width: 30px;
+    height: 30px;
+}
+
+.social-menu-item:hover {
+    border: black 1px solid;
+}
+
+/* FOOTER */
+/* Setting the border and layout for the footer of every page */
+footer {
+    border-top: black 1px solid;
+    display: grid;
+    background-color: rgba(176, 224, 230, 0.2);
+}
+
+/* Setting the position and size of the logo in the footer */
+.footer-logo {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.footer-logo-img {
+    padding: 1em;
+}
+
+/* Setting the position and style for the navigation menu in the footer, including when user is hovering over the items with the cursor */
+.footer-menu {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    border-top: black 1px solid;
+    margin-top: 2em;
+}
+
+.footer-menu-item {
+    margin: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.footer-menu-item:hover {
+    text-decoration: underline;
+    font-size: 1.75em;
+}
+
+/* Setting the styling of the social media menu in the footer*/
+.footer-social-menu {
+    padding: 1em;
+    border-top: black 1px solid;
+}
+/* The way the social media items look when the user is hovering over them with the cursor is the same as in the header, because the items have the same class name */
+
+/* Adjusting the layout and size of the items of the header and footer based on different screen sizes */
 @media (min-width: 0) {
 
     .menu-item {
@@ -61,92 +161,4 @@
         justify-self: center;
     }
 
-}
-
-.menu-item {
-    text-align: center;
-    font-size: 1em;
-    padding: 0 1% 0 1%;
-    margin: 0 1% 0 1%;
-    text-transform: uppercase;
-}
-
-.menu-item:hover {
-    text-decoration: underline;
-    font-size: 1.25em;
-}
-
-.header-logo {
-    padding: 1%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.header-logo-img {
-    width: 40px;
-    height: 40px;
-}
-
-#header-social-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 1em;
-}
-
-.social-item {
-    margin: 0 0.25em 0 0.25em;
-}
-
-.social-menu-item {
-    margin: 0 2% 0 2%;
-    width: 30px;
-    height: 30px;
-}
-
-.social-menu-item:hover {
-    border: black 1px solid;
-}
-
-footer {
-    border-top: black 1px solid;
-    display: grid;
-    background-color: rgba(176, 224, 230, 0.2);
-}
-
-.footer-logo {
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-}
-
-.footer-logo-img {
-    padding: 1em;
-}
-
-.footer-menu {
-    align-self: center;
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
-    border-top: black 1px solid;
-    margin-top: 2em;
-}
-
-.footer-menu-item {
-    margin: 0.5em;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.footer-menu-item:hover {
-    text-decoration: underline;
-    font-size: 1.75em;
-}
-
-.footer-social-menu {
-    padding: 1em;
-    border-top: black 1px solid;
 }

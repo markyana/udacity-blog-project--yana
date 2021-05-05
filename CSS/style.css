@@ -1,5 +1,6 @@
 /* Main CSS files with imports of all the other CSS files and with CSS rules that apply to general elements on the entire website */
 
+/* Linking all the other CSS files to this main file */
 @import url(post.css);
 @import url(all-posts.css);
 @import url(about.css);
@@ -7,6 +8,7 @@
 @import url(blog-cards.css);
 @import url(header-footer.css);
 
+/* Setting the general styling for elements that are used across the entire website */
 body {
     margin: 0;
     padding: 0;

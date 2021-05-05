@@ -1,10 +1,12 @@
 /* CSS for the post pages */
 
+/* Setting the layout of the blog post page */
 article {
     display: grid;
     grid-gap: 0.5em;
 }
 
+/* Setting the layout of the blog page based on the screen size (from one column in smaller screens to two columns in larger screens) */
 @media (min-width: 0) and (max-width: 1350px) {
 
     article {
@@ -60,6 +62,7 @@ article {
 
 }
 
+/* Setting the style or the header of each blog page */
 header {
     background-size: cover;
     background-position: center;
@@ -67,6 +70,7 @@ header {
     padding: 2em;
 }
 
+/* Setting the styling and layout of the information about the author in the header of each blog page */
 .avatar {
     width: 80px;
     height: 80px;
@@ -86,17 +90,18 @@ header {
     padding: 0.25em;
 }
 
+.author-bio {
+    font-size: 17px;
+    padding: 0.25em;
+}
+
+/* The following texts' and titles' background colors needed to be adjusted in order for the text to be easier to read on the background */
 .author-title-russian {
     background-color: rgba(253, 253, 253, 0.6);
 }
 
 .author-title-photo {
     background-color: rgba(0, 0, 0, 0.6);
-}
-
-.author-bio {
-    font-size: 17px;
-    padding: 0.25em;
 }
 
 .author-bio-russian {
@@ -107,23 +112,7 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.post-block {
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-}
-
-.block-image {
-    width: 50%;
-}
-
-.image-stretch {
-    width: 50%;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
-}
-
+/* Setting the background images and text color of the headers of each blog post page */
 .books-post-head {
     background: url(../images/books-post-header.jpg) center / cover no-repeat;
     color: black;
@@ -159,6 +148,25 @@ header {
     color: white;
 }
 
+/* Setting the layout and styling of the blocks in the posts which include a title, the text of the section, and an image */
+.post-block {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.block-image {
+    width: 50%;
+}
+
+.image-stretch {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+/* Setting the layout of the social sharing section of each blog post page and the style of its items (title and social media icons) */
 #social-share {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,6 @@
 /* CSS for the About page */
 
+/* Setting the layout of the 'About' page */
 #about {
     display: grid;
     grid-gap: 1em;
@@ -7,6 +8,7 @@
     justify-items: center;
 }
 
+/* Adjusting the layout of the 'About' page based on the screen size */
 @media (min-width: 0) {
 
     #about {
@@ -43,10 +45,12 @@
 
 }
 
-.img {
+/* Setting the width of the images inside the 'About' page content section */
+.image-about {
     width: 50%;
 }
 
+/* Setting the layout and styling of the header of the 'About' page with the page title and a short introduction */
 .about-top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
