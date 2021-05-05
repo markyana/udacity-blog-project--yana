@@ -1,11 +1,11 @@
 /* Main CSS files with imports of all the other CSS files and with CSS rules that apply to general elements on the entire website */
 
-@import "post.css";
-@import "all-posts.css";
-@import "about.css";
-@import "index.css";
-@import "blog-cards.css";
-@import "header-footer.css";
+@import url(post.css);
+@import url(all-posts.css);
+@import url(about.css);
+@import url(index.css);
+@import url(blog-cards.css);
+@import url(header-footer.css);
 
 body {
     margin: 0;

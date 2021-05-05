@@ -53,7 +53,8 @@
     padding: 4em;
 }
 
-.main-title, .main-text {
+.main-title,
+.main-text {
     color: white;
 }
 
